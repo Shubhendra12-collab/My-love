@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Practice</title>
+  <link rel="stylesheet" href="style.css">
+<head>
+   <style>
+    .green-button{
+      background-color: GREEN;
+      color: WHITE;
+      border:none;
+      padding:10px 15px;
+      cursor: pointer;
+    }
+
+    .yellow-button{
+      background-color: yellow;
+      padding:10px 15px;
+      border: none;
+      cursor:pointer;
+    }
+    .green-button{
+      background-color: rgb(255, 51, 0);
+    }
+    
+  </style>
+
+</head></head>
+<body>
+
+  <button class="GOOD JOB DUTT!" 
+  onclick="alert('GOOD JOB DUTT');
+  ">
+  HELLO DUTT!
+  </button>
+
+<br><br>
+
+  <p>HELLO! IT IS SUPER BASIC HTML CODE.</p>
+
+  <p>
+    I CAN CREATE THE BUTTON LIKE THIS 
+    <button class="pink-button">CLICK IT</button>
+    INSIDE THE TEXT
+  </p>
+
+</body>
+</html> 
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>JS Practice</title>
+</head>
+
+<body>
+
+<h2 id="demo">Learning JavaScript</h2>
+
+<button onclick="sayHello()">Popup</button>
+<button onclick="changeText()">Change Text</button>
+<button onclick="changeColor()">Change Background</button>
+
+<script>
+  //THIS IS A COMMMENT.
+  //COMMENTS PROVIDING MORE INFORMATION PEOPLE READING OUR CODE
+  //THIS CODE CREATES A POPUP.
+  /* MULTI-LINE COMMENT*/
+function sayHello(){
+  alert("Hello! You clicked the popup button.");
+}
+
+function changeText(){
+  document.getElementById("demo").innerHTML = "Now text is changed!";
+}
+
+function changeColor(){
+  document.body.style.backgroundColor = "lightblue";
+}
+
+console.log(100/5);
+console.log('Shubhendra' + 'Dutt');
+
+</script>
+
+</body>
+</html>

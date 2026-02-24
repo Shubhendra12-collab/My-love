@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booleans</title>
+</head>
+<body>
+  <script>
+    /*
+  //Booleans are another type of Value :- there are only  2 boolean values: true and false.
+  // what is purpose of boolean value = A main purpose of Boolean value represents whether something is true or false. for example
+  //if we surround the true like this ('true') then this is a string not a booleans.
+  //if we write console.log(typeof 'true');//it will tells us it is string
+  true
+  false
+
+  console.log(90<=9 + 9);
+
+  console.log(5 === '5.00');
+//if inside if value is true then it will print Helloworld .and if the inside the if value is false then it will print  else
+  if(false){
+    console.log('HelloWorld');
+  }else{
+    console.log('else');
+  }
+
+  //practical example:- question is to write some code to check if someone is old enough to drive.
+
+  const age = 19;
+
+
+
+  if(age >= 16) {
+    console.log('YOU CAN DRIVE');
+    console.log('CONGRATS')
+  } else if(age>=14){
+    console.log('Almost there!');
+  }else{
+    console.log('YOU CANNOT DRIVE');
+  }
+    */
+
+   // console.log(true && false);
+    //console.log(0.2 >=0 && 0.3 < 1 / 3);
+
+    //console.log(true || false);
+    //console.log(!false);
+  /*
+    if (0){
+      console.log('truthy');
+    }
+
+    const cartQuantity = 5;
+
+    if(cartQuantity){
+      console.log('cart has the  products')
+    }
+
+  console.log(!0);// (!- this is not operater) it flip it false  into true .
+
+  console.log('text' /5);  //NaN - Not A number
+
+  let variable2 = undefine value; //undefine value
+  console.log(variable1);
+  */
+ 
+//TERNARY OPERATOR :- SYMBOLE OF TERNARY OPERATOR IS (?:)
+ const result = true ? 'truthy' : 'falsy';
+ console.log(result);
+
+// Guard operator(&&)
+//short circuit Evaluation 
+//AND OPERATOR 
+//False && value()
+
+/*true && console.log('Helloo World');
+
+false && console.log('Hello World');
+
+const message = 55 & 'Hello World';
+console.log(message);*/
+
+//OR OPERATOR :- OR OPERATOR (||):- TRUE  ||  VALUE2
+//IMAGIN WE HAVE OR OPERATOR WITH LEFT SIDE IS TRUE .IN THIS SITUATION WE ALREADY KNOW THE RESULT  OF LEFT VALUE IS TRUE. WE DONT EVER NEED TO CHECK THE RIGHT SIDE.
+//OR OPERATOR WILL STOPS EARLY (or short -circuits)
+//for example.
+
+//const currency = 'NEP' || 'IND';
+//const currency = undefined || 'IND';
+//console.log(currency);
+  </script>
+</body>
+</html>

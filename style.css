@@ -1,0 +1,38 @@
+/* Page styling */
+body{
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  padding: 20px;
+}
+
+/* Paragraph text */
+p{
+  color: #f40303;
+  font-size: 16px;
+}
+
+/* All buttons basic style */
+button{
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Red button */
+.green-button{
+  background-color: crimson;
+  color: white;
+}
+
+/* Pink button */
+.pink-button{
+  background-color: hotpink;
+  color: white;
+}
+
+/* Hover effect (mouse over button) */
+button:hover{
+  opacity: 0.8;
+}
